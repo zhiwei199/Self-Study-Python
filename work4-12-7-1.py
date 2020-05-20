@@ -1,3 +1,6 @@
+"""
+该程序为判断用户输入字符串是否具有“回文”性质，即字符串前后部分完全对称
+"""
 def backstr(str):
      for i in range(len(str) // 2):
           if str[i] == str[-i-1]:
